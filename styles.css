@@ -41,6 +41,11 @@ body{
     text-align: center;
 }
 
+.calculator div div:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+
 .calculator .row-1 .operand,
 .calculator .row-2 .operand,
 .calculator .row-3 .operand,
@@ -49,6 +54,18 @@ body{
     color: white;
 }
 
+.calculator .row-1 .operand:hover,
+.calculator .row-2 .operand:hover,
+.calculator .row-3 .operand:hover,
+.calculator .row-4 .operand:hover{
+    background-color: rgb(69,69,69);
+    color: white;
+}
+
 #clear{
     background-color: red;
+}
+
+#clear:hover{
+    background-color: lightcoral;
 }
